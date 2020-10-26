@@ -4,7 +4,7 @@
   "main": "index.js",
   "repository": "",
   "author": "Micahel Romanoff <zelcie@gmail.com>",
-  "license": "BSD-2-Clause",
+  "license": "ISC",
   "private": true,
   "workspaces": [
     "packages/*"
