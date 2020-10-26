@@ -15,14 +15,20 @@ Install dependencies with yarn by running
 yarn
 ```
 
-### Starting the project
-
-Start up the project in development mode by running
-
 ```sh
-yarn dev
+chmod -R +x scripts    
 ```
 
-Changing any files in the `src` folder will result in an incremental rebuild, and a refresh of the screen.
 
-By default, the app is served on https://localhost:1234.
+```sh
+yarn build
+```
+
+```sh
+yarn clean
+```
+
+```sh
+yarn test
+```
+

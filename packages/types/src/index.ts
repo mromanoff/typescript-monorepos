@@ -5,7 +5,7 @@
  *
  * <h3>Why does this library exist?</h3>
  *
- * `@shlack/types` is a package containing broadly-useful
+ * `@mogul/types` is a package containing broadly-useful
  * types and type guards for our demo slack app. This is part of Mike's
  * <b>JS & TS Monorepos Course</b> which you can learn more about by visiting
  * <a href="https://github.com/mike-north/js-ts-monorepos/" target="_blank">

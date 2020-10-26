@@ -1,14 +1,20 @@
 {
-  "name": "js-ts-monotrepos",
+  "name": "typescript-monotrepos",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:mike-north/js-ts-monorepos.git",
-  "author": "Mike North <michael.l.north@gmail.com>",
+  "repository": "",
+  "author": "Micahel Romanoff <zelcie@gmail.com>",
   "license": "BSD-2-Clause",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "build": "scripty",
+    "test": "scripty",
+    "lint": "scripty",
+    "clean": "scripty"
+  },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
@@ -20,7 +26,8 @@
     "husky": "^4.3.0",
     "lerna": "^3.22.1",
     "lerna-changelog": "^1.0.1",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "scripty": "^2.0.0"
   },
   "volta": {
     "node": "12.19.0",
@@ -30,5 +37,8 @@
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "scripty": {
+    "path": "./scripts/workspace"
   }
 }

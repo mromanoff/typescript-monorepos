@@ -28,7 +28,7 @@ export interface IMessage {
  * @public
  *
  * @remarks
- * The {@link @shlack/types#isTeam} type guard may be used to
+ * The {@link @mogul/types#isTeam} type guard may be used to
  * detect whether a value conforms to this interface
  */
 export interface ITeam {
